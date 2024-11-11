@@ -1,0 +1,16 @@
+password = 12345
+answer = 0
+attempts = 5
+while answer != password:
+    answer = int(input("Enter password: "))
+    if answer != password:
+        attempts = attempts - 1
+        print(attempts, "Attempts remaining")
+    if attempts < 1:
+        print("You've run out of attempts")
+        break
+if answer == password:
+    print("Correct")
+
+
+

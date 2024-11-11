@@ -1,0 +1,13 @@
+def main():
+    num = int(input("Enter number: "))
+    def check_even():
+        if num%2 == 0:
+            print("Number is even")
+        else:
+            print("Number is odd")
+    check_even()
+main()
+
+
+
+

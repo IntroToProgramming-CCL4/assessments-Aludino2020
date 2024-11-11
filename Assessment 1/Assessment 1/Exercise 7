@@ -1,0 +1,15 @@
+input("")
+for x in range(51):
+    print(x)
+input("")
+for x in range(50, -1, -1):
+    print(x)
+input("")
+for x in range(30, 51):
+    print(x)
+input("")
+for x in range(50, 9, -2):
+    print(x)
+input("")
+for x in range(100, 205, 5):
+    print(x)

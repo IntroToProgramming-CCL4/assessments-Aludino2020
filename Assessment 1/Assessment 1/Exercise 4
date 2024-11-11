@@ -1,0 +1,16 @@
+total = 0
+
+countries = {'France':'paris', 'Hungary':'budapest', 'Germany':'berlin', 'Russia':'moscow', 'Poland':'warsaw', 'Sweden':'stockholm', 'Netherlands':'amsterdam', 'Italy':'rome', 'Ukraine':'kyiv', 'Belgium':'brussels'}
+
+for country in countries:
+    answer = input(f"What is the capital of {country}?\n").lower()
+    if answer.lower() == countries[country]:
+        print("Correct")
+        total = total + 1
+    else:
+        print("Wrong")
+print(f"Your got {total}/{len(countries)} right")
+
+
+
+

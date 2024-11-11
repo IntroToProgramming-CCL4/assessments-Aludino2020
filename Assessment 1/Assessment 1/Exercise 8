@@ -1,0 +1,6 @@
+names = ["jake", "zac", "ian", "ron", "sam", "dave"]
+name = input("Enter name: ").lower()
+if name in names:
+    print("In list")
+else:
+    print("Not in list")

@@ -1,0 +1,6 @@
+name = input("Enter name: ")
+hometown = input("Enter hometown: ")
+age = input("Enter age: ")
+info = {'name':name, 'hometown':hometown, 'age':age}
+print(info)
+
